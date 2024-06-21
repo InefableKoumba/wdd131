@@ -21,12 +21,20 @@ nav {
   justify-content: space-around;
   padding: 15px 0;
 }
+
+hr {
+  margin: 4px 20px;
+}
+
 li {
   list-style-type: none;
 }
 nav a {
   text-decoration: none;
   color: white;
+}
+a:hover {
+  color: #e59f71;
 }
 main {
   display: grid;
