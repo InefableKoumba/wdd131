@@ -37,6 +37,8 @@ a:hover {
   color: #e59f71;
 }
 main {
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
   grid-template: auto auto / auto auto;
   padding: 20px;
