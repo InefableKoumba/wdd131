@@ -66,3 +66,10 @@ h2 {
   padding: 8px;
   text-align: center;
 }
+
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
