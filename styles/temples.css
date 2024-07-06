@@ -61,12 +61,12 @@ header button {
   cursor: pointer;
 }
 
-header button div {
+header button hr {
   height: 4px;
   width: 40px;
   background-color: var(--main-secondary-color);
 }
-header button:hover div {
+header button:hover hr {
   background-color: var(--main-primary-color);
 }
 
