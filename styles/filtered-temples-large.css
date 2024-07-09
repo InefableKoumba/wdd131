@@ -1,0 +1,24 @@
+@media screen and (min-width: 600px) {
+  main div {
+    display: grid;
+    gap: 1rem;
+    grid-template: 1fr / 1fr 1fr;
+  }
+  #mobile-menu-container {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  main div {
+    display: grid;
+    gap: 1rem;
+    grid-template: 1fr / 1fr 1fr 1fr;
+  }
+  header nav {
+    display: flex;
+    color: var(--main-secondary-color);
+  }
+  header button {
+    display: none;
+  }
+}
