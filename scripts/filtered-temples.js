@@ -112,27 +112,32 @@ const filter = urlParams.get("filter");
 let filteredTemples = [];
 switch (filter) {
   case "old":
+    document.getElementById("page-name").textContent = "Old";
     filteredTemples = temples.filter((temple) => {
       return temple.dedicated.split(",")[0] < 1900;
     });
     break;
   case "new":
+    document.getElementById("page-name").textContent = "New";
     filteredTemples = temples.filter((temple) => {
       return temple.dedicated.split(",")[0] > 2000;
     });
     break;
   case "large":
+    document.getElementById("page-name").textContent = "Large";
     filteredTemples = temples.filter((temple) => {
       return temple.area > 90000;
     });
     break;
   case "small":
+    document.getElementById("page-name").textContent = "Small";
     filteredTemples = temples.filter((temple) => {
       return temple.area < 10000;
     });
     break;
   default:
     filteredTemples = temples;
+    document.getElementById("page-name").textContent = "Home";
 }
 
 document.getElementById("temples").innerHTML = "";

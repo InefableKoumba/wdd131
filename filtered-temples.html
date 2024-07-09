@@ -23,25 +23,25 @@
             <a href="?filter=small">Small</a>
         </nav>
         <button class="toggle-menu">
-            <hr>
-            <hr>
-            <hr>
+            <span></span>
+            <span></span>
+            <span></span>
         </button>
         <div id="mobile-menu-container" class="hide">
             <button class="toggle-menu">
-                <span>X</span>
+                X
             </button>
             <ul id="mobile-menu">
-                <li><a href="/">Home</a></li>
+                <li><a href="/filtered-temples.html">Home</a></li>
                 <li><a href="?filter=old">Old</a></li>
-                <li><a href="#">New</a></li>
-                <li><a href="#">Large</a></li>
-                <li><a href="#">Small</a></li>
+                <li><a href="?filter=new">New</a></li>
+                <li><a href="?filter=large">Large</a></li>
+                <li><a href="?filter=small">Small</a></li>
             </ul>
         </div>
     </header>
     <main>
-        <h2>Home</h2>
+        <h2 id="page-name"></h2>
         <div id="temples"></div>
     </main>
     <footer>

@@ -61,12 +61,13 @@ header button {
   cursor: pointer;
 }
 
-header button hr {
+header button span {
   height: 4px;
   width: 40px;
+  display: block;
   background-color: var(--main-secondary-color);
 }
-header button:hover hr {
+header button:hover span {
   background-color: var(--main-primary-color);
 }
 
@@ -92,6 +93,10 @@ footer {
   width: inherit;
   padding: 1rem;
   width: 100%;
+}
+#mobile-menu-container button {
+  color: #fff;
+  font-size: 2rem;
 }
 #mobile-menu-container button span {
   color: white;
