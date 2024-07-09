@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Inefable KOUMBA, Self introduction">
+    <meta name="author" content="Inefable KOUMBA">
+    <link rel="stylesheet" href="./styles/place.css">
+    <script src="./scripts/place.js" defer></script>
+    <title>WDD 131 - Dynamic Web Fundamentals - Inefable KOUMBA</title>
+</head>
+
+<body>
+    <header>
+        <h1>The Republic Of Congo</h1>
+    </header>
+    <main>
+        <img id="hero" src="./images/congo.webp" alt="Congo"
+            srcset="./images/congo-2.webp 480w,./images/congo.webp 800w">
+        <div id="card-1">
+            <h2>Data</h2>
+            <div id="card-1-data-container">
+                <ul>
+                    <li>Area:</li>
+                    <li>Population:</li>
+                    <li>Capital:</li>
+                    <li>Languages:</li>
+                    <li>Currency:</li>
+                    <li>Time Zone:</li>
+                    <li>Calling Code:</li>
+                    <li>Internet TLD:</li>
+                </ul>
+                <ul>
+                    <li>342,000 sq km</li>
+                    <li>5,000,000</li>
+                    <li>Brazzaville</li>
+                    <li>Kikongo, Lingala</li>
+                    <li>XAF</li>
+                    <li>UTC+1</li>
+                    <li>+242</li>
+                    <li>.cg</li>
+                </ul>
+            </div>
+        </div>
+        <div id="card-2">
+            <h2>Weather</h2>
+            <img id="weather-svg" src="./images/cloud.svg" alt="Weather">
+            <div id="card-2-data-container">
+                <ul>
+                    <li>Temperature:</li>
+                    <li>Conditions:</li>
+                    <li>Wind:</li>
+                    <li>Wind Chill:</li>
+                </ul>
+                <ul>
+                    <li>10 °C</li>
+                    <li>Partly Cloudy</li>
+                    <li>4 km/h</li>
+                    <li id="windChill"></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Inefable KOUMBA, Republic Of Congo</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
